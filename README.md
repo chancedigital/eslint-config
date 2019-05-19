@@ -25,19 +25,19 @@ yarn add -D eslint-plugin-wpcalypso
 Next, extend the configuration from your project's [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
 
 ```
-"extends": "chancedigital"
+"extends": "@chancedigital"
 ```
 
 Or, if your project uses React and you want to opt in to additional React-specific rules, extend the React superset:
 
 ```
-"extends": "chancedigital/react"
+"extends": "@chancedigital/eslint-config/react"
 ```
 
 ...or for WordPress projects:
 
 ```
-"extends": "chancedigital/wp"
+"extends": "@chancedigital/eslint-config/wp"
 ```
 
 Refer to the [ESLint documentation on Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) for more information.
