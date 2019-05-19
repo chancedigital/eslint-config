@@ -7,7 +7,7 @@ ESLint configuration following Chance Digital Coding Standards. WIP.
 You should install this configuration and peer dependencies as `devDependencies` in your project:
 
 ```
-yarn add -D @chancedigital/config-eslint eslint eslint-plugin-import eslint-plugin-jest babel-eslint
+yarn add -D @chancedigital/eslint-config eslint eslint-plugin-import eslint-plugin-jest babel-eslint
 ```
 
 If you're planning to use the React superset of rules, you should also install `eslint-plugin-react` and `eslint-plugin-react-hooks`:

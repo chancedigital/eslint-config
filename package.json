@@ -1,6 +1,6 @@
 {
-  "name": "@chancedigital/config-eslint",
-  "version": "1.0.2",
+  "name": "@chancedigital/eslint-config",
+  "version": "1.0.3",
   "description": "ESLint configuration following Chance Digital Coding Standards",
   "keywords": [
     "eslint"
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chancedigital/config-eslint.git"
+    "url": "https://github.com/chancedigital/eslint-config.git"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
