@@ -1,6 +1,6 @@
 {
-  "name": "@chancedigital/eslint-config",
-  "version": "1.0.1",
+  "name": "@chancedigital/config-eslint",
+  "version": "1.0.2",
   "description": "ESLint configuration following Chance Digital Coding Standards",
   "keywords": [
     "eslint"
