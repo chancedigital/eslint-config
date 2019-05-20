@@ -1,12 +1,12 @@
 # Chance Digital ESLint Config
 
-ESLint configuration following Chance Digital Coding Standards. WIP.
+Shareable configuration for [ESLint](http://eslint.org/) following Chance Digital Coding Standards.
 
-## Usage
+## Installation
 
-You should install this configuration and peer dependencies as `devDependencies` in your project:
+You should install this configuration along with its `peerDependencies` as `devDependencies` in your project:
 
-```
+```shell
 yarn add -D @chancedigital/eslint-config eslint eslint-plugin-import eslint-plugin-jest babel-eslint
 ```
 
@@ -22,7 +22,9 @@ If you're planning to use the WordPress superset of rules, you should also insta
 yarn add -D eslint-plugin-wpcalypso
 ```
 
-Next, extend the configuration from your project's [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
+## Usage
+
+Extend the configuration from your project's [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
 
 ```
 "extends": "@chancedigital"
