@@ -1,4 +1,4 @@
-# Chance Digital Eslint Config
+# Chance Digital ESLint Config
 
 ESLint configuration following Chance Digital Coding Standards. WIP.
 
