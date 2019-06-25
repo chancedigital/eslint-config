@@ -22,6 +22,12 @@ If you're planning to use the WordPress superset of rules, you should also insta
 yarn add -D eslint-plugin-wpcalypso
 ```
 
+And to use the TypeScript superset of rules, you should also install `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin`:
+
+```
+yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
 ## Usage
 
 Extend the configuration from your project's [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
@@ -40,6 +46,12 @@ Or, if your project uses React and you want to opt in to additional React-specif
 
 ```
 "extends": "@chancedigital/eslint-config/wp"
+```
+
+...or for TypeScript projects:
+
+```
+"extends": "@chancedigital/eslint-config/typescript"
 ```
 
 Refer to the [ESLint documentation on Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) for more information.
