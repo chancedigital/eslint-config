@@ -55,7 +55,7 @@ module.exports = {
     'wpcalypso/i18n-named-placeholders': 2,
     'wpcalypso/import-docblock': 0,
     'wpcalypso/jsx-gridicon-size': 1,
-    'wpcalypso/jsx-classname-namespace': 1,
+    'wpcalypso/jsx-classname-namespace': 0,
     'wpcalypso/redux-no-bound-selectors': 1,
     yoda: 0,
   },
