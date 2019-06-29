@@ -1,6 +1,6 @@
 {
   "name": "@chancedigital/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Shareable configuration for ESLint following Chance Digital Coding Standards.",
   "keywords": [
     "eslint"
@@ -22,6 +22,7 @@
   "files": [
     "index.js",
     "react/index.js",
+    "typescript/index.js",
     "wp/index.js"
   ],
   "devDependencies": {
