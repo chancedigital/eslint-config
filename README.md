@@ -19,7 +19,7 @@ yarn add -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
 If you're planning to use the WordPress superset of rules, you should also install `eslint-plugin-wpcalypso`:
 
 ```
-yarn add -D eslint-plugin-wpcalypso
+yarn add -D eslint-plugin-wpcalypso @wordpress/eslint-plugin
 ```
 
 And to use the TypeScript superset of rules, you should also install `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin`:
