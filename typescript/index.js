@@ -19,7 +19,7 @@ module.exports = {
         'no-array-constructor': 0,
         'no-unused-vars': 0,
 
-        '@typescript-eslint/no-angle-bracket-type-assertion': 1,
+        '@typescript-eslint/consistent-type-assertions': 1,
         '@typescript-eslint/no-array-constructor': 1,
         '@typescript-eslint/no-namespace': 2,
         '@typescript-eslint/no-unused-vars': [
