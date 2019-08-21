@@ -92,7 +92,14 @@ module.exports = {
     'dot-location': [1, 'property'],
     'dot-notation': 1,
     eqeqeq: [1, 'always', { null: 'ignore' }],
-    indent: [1, 2],
+    indent: [
+      1,
+      2,
+      {
+        ignoredNodes: ['ConditionalExpression'],
+        ignoreComments: true,
+      },
+    ],
     'max-len': 0,
     'new-cap': [1, { capIsNew: false, newIsCap: true }],
     'new-parens': 1,
