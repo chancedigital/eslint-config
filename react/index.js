@@ -9,6 +9,7 @@ module.exports = {
   },
   plugins: ['react', 'react-hooks', 'jsx-a11y'],
   rules: {
+    camelcase: [1, { allow: ['^UNSAFE_'] }],
     'jsx-a11y/accessible-emoji': 1,
     'jsx-a11y/alt-text': 1,
     'jsx-a11y/anchor-has-content': 1,
