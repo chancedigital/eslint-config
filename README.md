@@ -1,5 +1,7 @@
 # Chance Digital ESLint Config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chancedigital/eslint-config.svg)](https://greenkeeper.io/)
+
 Shareable configuration for [ESLint](http://eslint.org/) following Chance Digital Coding Standards.
 
 ## Installation
