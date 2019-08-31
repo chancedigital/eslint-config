@@ -18,6 +18,7 @@ module.exports = {
     '@wordpress/valid-sprintf': 2,
     '@wordpress/no-base-control-with-label-without-id': 2,
     'array-bracket-spacing': [1, 'always'],
+    'comma-dangle': [1, 'always-multiline'],
     'comma-spacing': 1,
     'computed-property-spacing': [1, 'always'],
     curly: 1,

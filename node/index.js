@@ -3,5 +3,7 @@ module.exports = {
   extends: ['../index.js', 'plugin:node/recommended-script'],
   parser: 'espree',
   plugins: ['node'],
-  rules: {},
+  rules: {
+    'no-process-exit': 0,
+  },
 };
