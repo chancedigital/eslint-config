@@ -62,18 +62,17 @@ const restrictedGlobals = [
 module.exports = {
   root: true,
   parser: 'babel-eslint',
-  plugins: ['import', 'jest'],
+  plugins: ['import'],
   env: {
     browser: true,
     es6: true,
-    jest: true,
     node: true,
   },
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
   },
-  extends: ['eslint:recommended', 'plugin:jest/recommended'],
+  extends: ['eslint:recommended'],
   settings: {
     'import/ignore': [
       'node_modules',
@@ -208,15 +207,15 @@ module.exports = {
     'rest-spread-spacing': [1, 'never'],
     'one-var': 0,
     'operator-linebreak': 0,
-    'prefer-const': 1,
+    'prefer-const': 0,
     'quote-props': [1, 'as-needed'],
     quotes: [1, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'require-await': 2,
-    semi: 1,
+    semi: 0,
     'space-before-blocks': [1, 'always'],
     strict: [1, 'never'], // assumed by babel
     'unicode-bom': [1, 'never'],
-    'use-isnan': 'warn',
+    'use-isnan': 1,
     'import/first': 2,
     'import/no-amd': 2,
     'import/no-webpack-loader-syntax': 2,

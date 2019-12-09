@@ -7,7 +7,6 @@ module.exports = {
     browser: true,
     commonjs: true,
     es6: true,
-    jest: true,
     node: true,
     jquery: true,
   },
@@ -60,6 +59,7 @@ module.exports = {
     'no-underscore-dangle': 0,
     'object-curly-spacing': [1, 'always'],
     'padded-blocks': [1, 'never'],
+    semi: 1,
     'semi-spacing': 1,
     'space-before-function-paren': [
       1,
