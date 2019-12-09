@@ -1,5 +1,7 @@
 module.exports = {
   extends: ['../index.js', 'plugin:mocha/recommended'],
   plugins: ['mocha'],
-  rules: {},
+  rules: {
+    'mocha/no-mocha-arrows': 0,
+  },
 };
