@@ -1,1 +1,3 @@
-module.exports = require('./index');
+module.exports = {
+	extends: ["./index.js"],
+};
