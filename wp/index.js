@@ -6,7 +6,6 @@ module.exports = {
 		browser: true,
 		commonjs: true,
 		es6: true,
-		jest: true,
 		node: true,
 		jquery: true,
 	},
@@ -60,6 +59,7 @@ module.exports = {
 		"object-curly-spacing": [1, "always"],
 		"padded-blocks": [1, "never"],
 		quotes: [1, "single", { avoidEscape: true, allowTemplateLiterals: true }],
+		semi: 1,
 		"semi-spacing": 1,
 		"space-before-function-paren": [
 			1,
