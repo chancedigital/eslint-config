@@ -1,6 +1,6 @@
 {
   "name": "@chancedigital/eslint-config",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "description": "Shareable configuration for ESLint following Chance Digital Coding Standards.",
   "keywords": [
     "eslint"
