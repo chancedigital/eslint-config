@@ -140,7 +140,6 @@ module.exports = {
 		"no-new-symbol": 1,
 		"no-new-wrappers": 1,
 		"no-octal-escape": 2,
-		"no-process-exit": 2,
 		"no-redeclare": 2,
 		"no-regex-spaces": 1,
 		"no-restricted-globals": [2].concat(restrictedGlobals),
