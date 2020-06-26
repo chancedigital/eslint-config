@@ -2,7 +2,7 @@ module.exports = {
 	extends: "../index.js",
 	overrides: [
 		{
-			files: ["**/*.ts", "**/*.tsx"],
+			files: ["**/*.ts?(x)"],
 			parser: "@typescript-eslint/parser",
 			parserOptions: {
 				ecmaVersion: 2018,
@@ -22,7 +22,7 @@ module.exports = {
 				"@typescript-eslint/no-array-constructor": 1,
 				"@typescript-eslint/no-namespace": 2,
 				"@typescript-eslint/no-unused-vars": [
-					1,
+					2,
 					{
 						args: "none",
 						ignoreRestSiblings: true,

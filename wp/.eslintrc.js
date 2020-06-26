@@ -1,6 +1,4 @@
 module.exports = {
-  extends: [
-    '../react/index.js',
-    './index.js',
-  ],
-}
+	// eslint-disable-next-line
+	extends: ["../react/index.js", "./index.js"],
+};
