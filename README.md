@@ -9,7 +9,7 @@ Shareable configuration for [ESLint](http://eslint.org/) following Chance Digita
 You should install this configuration along with its `peerDependencies` as `devDependencies` in your project:
 
 ```shell
-yarn add -D @chancedigital/eslint-config eslint eslint-plugin-import babel-eslint
+yarn add -D @chancedigital/eslint-config eslint@7 eslint-plugin-import@2 babel-eslint@10
 ```
 
 ## Usage
@@ -40,15 +40,14 @@ You can extend any superset in `.eslintrc` by adding the standard into an `exten
 
 The following is a table of available supersets along with their required `devDependencies`:
 
-| Superset     | `devDependencies`                                                          |
-|--------------|----------------------------------------------------------------------------|
-| `jest`       | `eslint-plugin-jest`                                                       |
-| `mocha`      | `eslint-plugin-mocha`                                                      |
-| `node`       | `eslint-plugin-node`                                                       |
-| `react`      | `eslint-plugin-react` `eslint-plugin-react-hooks` `eslint-plugin-jsx-a11y` |
-| `typescript` | `@typescript-eslint/parser` `@typescript-eslint/eslint-plugin`             |
-| `wp`         | `eslint-plugin-wpcalypso` `@wordpress/eslint-plugin`
-| 
+| Superset     | `devDependencies`                                                              |
+| ------------ | ------------------------------------------------------------------------------ |
+| `jest`       | `eslint-plugin-jest@23`                                                        |
+| `mocha`      | `eslint-plugin-mocha@7`                                                        |
+| `node`       | `eslint-plugin-node@11`                                                        |
+| `react`      | `eslint-plugin-react@7` `eslint-plugin-react-hooks@4` `eslint-plugin-jsx-a11y` |
+| `typescript` | `@typescript-eslint/parser@3` `@typescript-eslint/eslint-plugin@3`             |
+| `wp`         | `eslint-plugin-wpcalypso@4` `@wordpress/eslint-plugin@7`                       |
 
 ## Test Standards
 
@@ -56,10 +55,10 @@ As of v5.0, we have removed the Jest rules from the standard config. This is bec
 
 ```shell
 # For Jest
-yarn add -D eslint-plugin-jest
+yarn add -D eslint-plugin-jest@23
 
 # For Mocha
-yarn add -D eslint-plugin-mocha
+yarn add -D eslint-plugin-mocha@7
 ```
 
 ```js
