@@ -11,23 +11,49 @@ module.exports = {
 			},
 			plugins: ["@typescript-eslint"],
 			rules: {
-				// These ESLint rules are known to cause issues with typescript-eslint
-				// See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/configs/recommended.json
-				camelcase: 0,
-				indent: 0,
-				"jsx-quotes": 0,
+				// TypeScript's `noFallthroughCasesInSwitch` option is more robust
+				"default-case": 0,
+				// 'tsc' already handles this
+				// https://github.com/typescript-eslint/typescript-eslint/issues/291
+				"no-dupe-class-members": 0,
+				// 'tsc' already handles this
+				// https://github.com/typescript-eslint/typescript-eslint/issues/477
+				"no-undef": 0,
+
+				// Conflicting TS/ESLint rules
 				"no-array-constructor": 0,
-				"no-unused-vars": 0,
-				"@typescript-eslint/consistent-type-assertions": 1,
 				"@typescript-eslint/no-array-constructor": 1,
-				"@typescript-eslint/no-namespace": 2,
-				"@typescript-eslint/no-unused-vars": [
+				"no-use-before-define": 0,
+				"@typescript-eslint/no-use-before-define": [
+					0,
+					{
+						functions: false,
+						classes: false,
+						variables: false,
+						typedefs: false,
+					},
+				],
+				"no-unused-expressions": 0,
+				"@typescript-eslint/no-unused-expressions": [
 					2,
+					{
+						allowShortCircuit: true,
+						allowTernary: true,
+						allowTaggedTemplates: true,
+					},
+				],
+				"no-unused-vars": 0,
+				"@typescript-eslint/no-unused-vars": [
+					1,
 					{
 						args: "none",
 						ignoreRestSiblings: true,
 					},
 				],
+				"no-useless-constructor": 0,
+				"@typescript-eslint/no-useless-constructor": 1,
+
+				"@typescript-eslint/consistent-type-assertions": 1,
 			},
 		},
 	],

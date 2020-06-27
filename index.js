@@ -33,6 +33,7 @@ module.exports = {
 		"dot-notation": 1,
 		eqeqeq: 0,
 		indent: 0,
+		"jsx-quotes": 0,
 		"max-len": 0,
 		"new-cap": [1, { capIsNew: false, newIsCap: true }],
 		"new-parens": 1,
