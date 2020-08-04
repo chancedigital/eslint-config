@@ -150,7 +150,7 @@ module.exports = {
 		"one-var": 0,
 		"operator-linebreak": 0,
 		"prefer-const": 0,
-		"quote-props": [1, "as-needed"],
+		"quote-props": 0,
 		quotes: 0,
 		"require-await": 2,
 		semi: 0,
