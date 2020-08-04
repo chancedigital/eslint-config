@@ -109,6 +109,7 @@ module.exports = {
 		"no-template-curly-in-string": 1,
 		"no-throw-literal": 1,
 		"no-undef": 2,
+		"no-unexpected-multiline": 0,
 		"no-unreachable": 1,
 		"no-unused-expressions": [
 			2,
