@@ -40,14 +40,14 @@ You can extend any superset in `.eslintrc` by adding the standard into an `exten
 
 The following is a table of available supersets along with their required `devDependencies`:
 
-| Superset     | `devDependencies`                                                              |
-| ------------ | ------------------------------------------------------------------------------ |
-| `jest`       | `eslint-plugin-jest@23`                                                        |
-| `mocha`      | `eslint-plugin-mocha@7`                                                        |
-| `node`       | `eslint-plugin-node@11`                                                        |
-| `react`      | `eslint-plugin-react@7` `eslint-plugin-react-hooks@4` `eslint-plugin-jsx-a11y` |
-| `typescript` | `@typescript-eslint/parser@3` `@typescript-eslint/eslint-plugin@3`             |
-| `wp`         | `eslint-plugin-wpcalypso@4` `@wordpress/eslint-plugin@7`                       |
+| Superset     | `devDependencies`                                                                                                                        |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `jest`       | `eslint-plugin-jest@24` `eslint-plugin-testing-library@3`                                                                                |
+| `mocha`      | `eslint-plugin-mocha@8`                                                                                                                  |
+| `node`       | `eslint-plugin-node@11`                                                                                                                  |
+| `react`      | `eslint-plugin-react@7` `eslint-plugin-react-hooks@4` `eslint-plugin-jsx-a11y` `eslint-plugin-jest@24` `eslint-plugin-testing-library@3` |
+| `typescript` | `@typescript-eslint/parser@3` `@typescript-eslint/eslint-plugin@3` `typescript@4`                                                        |
+| `wp`         | `eslint-plugin-wpcalypso@5` `@wordpress/eslint-plugin@7`                                                                                 |
 
 ## Test Standards
 
