@@ -1,8 +1,41 @@
 module.exports = {
-	extends: ["../index.js", "plugin:jest/recommended"],
+	extends: ["../index.js"],
 	env: {
 		jest: true,
 	},
-	plugins: ["jest"],
+	plugins: ["jest", "testing-library"],
 	rules: {},
+	overrides: [
+		{
+			files: ["**/__tests__/**/*", "**/*.{spec,test}.*"],
+			env: {
+				"jest/globals": true,
+			},
+			rules: {
+				"jest/expect-expect": 1,
+				"jest/no-commented-out-tests": 0,
+				"jest/no-conditional-expect": 2,
+				"jest/no-deprecated-functions": 1,
+				"jest/no-disabled-tests": 1,
+				"jest/no-focused-tests": 1,
+				"jest/no-identical-title": 2,
+				"jest/no-interpolation-in-snapshots": 2,
+				"jest/no-jasmine-globals": 2,
+				"jest/no-jest-import": 2,
+				"jest/no-mocks-import": 2,
+				"jest/no-standalone-expect": 1,
+				"jest/no-test-prefixes": 1,
+				"jest/valid-describe": 2,
+				"jest/valid-expect": 2,
+				"jest/valid-expect-in-promise": 2,
+				"jest/valid-title": 1,
+				"testing-library/await-async-query": 2,
+				"testing-library/await-async-utils": 2,
+				"testing-library/no-await-sync-query": 1,
+				"testing-library/no-dom-import": [2, "react"],
+				"testing-library/no-wait-for-empty-callback": 2,
+				"testing-library/no-wait-for-snapshot": 2,
+			},
+		},
+	],
 };

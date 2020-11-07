@@ -22,7 +22,7 @@ module.exports = {
 		"computed-property-spacing": [1, "always"],
 		curly: 1,
     "eol-last": 1,
-    eqeqeq: [1, "always", { null: "ignore" }],
+    eqeqeq: [1, "smart", { null: "ignore" }],
 		"func-call-spacing": 1,
 		indent: [
 			1,
@@ -93,7 +93,6 @@ module.exports = {
 		"wpcalypso/jsx-gridicon-size": 0,
 		"wpcalypso/import-docblock": 0,
 		"wpcalypso/post-message-no-wildcard-targets": 0,
-		"wpcalypso/import-no-redux-combine-reducers": 0,
 		"wpcalypso/redux-no-bound-selectors": 0,
 		yoda: 0,
 	},
