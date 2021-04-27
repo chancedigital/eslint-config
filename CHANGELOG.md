@@ -1,3 +1,8 @@
+# 8.1.0 (2021-04-26)
+
+* Set `require-await` from `error` to `off` (unsure why it was included in the first place, this is usually intentional)
+* Upgrade peer dependency for `@wordpress/eslint-plugin` to version 9
+
 # 8.0.0 (2020-11-07)
 
 ### BREAKING CHANGES

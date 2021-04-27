@@ -46,7 +46,7 @@ The following is a table of available supersets along with their required `devDe
 | `mocha`      | `eslint-plugin-mocha@8`                                                                                                                  |
 | `node`       | `eslint-plugin-node@11`                                                                                                                  |
 | `react`      | `eslint-plugin-react@7` `eslint-plugin-react-hooks@4` `eslint-plugin-jsx-a11y` `eslint-plugin-jest@24` `eslint-plugin-testing-library@3` |
-| `typescript` | `@typescript-eslint/parser@3` `@typescript-eslint/eslint-plugin@3` `typescript@4`                                                        |
+| `typescript` | `@typescript-eslint/parser@4` `@typescript-eslint/eslint-plugin@4` `typescript@4`                                                        |
 | `wp`         | `eslint-plugin-wpcalypso@5` `@wordpress/eslint-plugin@7`                                                                                 |
 
 ## Test Standards

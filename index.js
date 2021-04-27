@@ -154,7 +154,7 @@ module.exports = {
 		"prefer-const": 0,
 		"quote-props": 0,
 		quotes: 0,
-		"require-await": 2,
+		"require-await": 0,
 		semi: 0,
 		"space-before-blocks": 0,
 		strict: [1, "never"], // assumed by babel
