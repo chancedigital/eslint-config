@@ -21,6 +21,8 @@ module.exports = {
 				"@typescript-eslint/consistent-type-assertions": 1,
 				"no-array-constructor": 0,
 				"@typescript-eslint/no-array-constructor": 1,
+				"no-duplicate-imports": 0,
+				"@typescript-eslint/no-duplicate-imports": 1,
 				"no-redeclare": 0,
 				"@typescript-eslint/no-redeclare": 1,
 				"no-use-before-define": 0,
