@@ -1,4 +1,3 @@
-import React from 'react';
 const phasellus = 'phasellus';
 const strVar = `Accumsan ligula ${ phasellus } aliquam faucibus eu.`;
 const config = {
@@ -24,19 +23,6 @@ const nonsense = funFunc( 'wHo0p', [ {
 	name: 'Really?',
 	value: 'Value hah!',
 } ], {} );
-
-const CoolLink = () => {
-	return (
-		<a href="/">
-      Cool{' '}
-			<span role="img" aria-label="cool graphic">
-        🆒
-			</span>
-		</a>
-	);
-};
-
-export default CoolLink;
 
 
 return { strVar, config, nonsense };
