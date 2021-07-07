@@ -1,1 +1,4 @@
-*/test.js
+# WP linting cares about formatting
+# easiest to just ignore them
+wp/test.js
+wp-react/test.js

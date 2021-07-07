@@ -11,6 +11,3 @@ node_modules
 npm-debug.log
 yarn-error.log
 .vscode
-
-# using yarn
-package-lock.json
