@@ -2,7 +2,7 @@ const restrictedGlobals = require("confusing-browser-globals");
 
 module.exports = {
 	root: true,
-	parser: "babel-eslint",
+	parser: "@babel/eslint-parser",
 	plugins: ["import"],
 	env: {
 		browser: true,
@@ -12,6 +12,7 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 2018,
 		sourceType: "module",
+		requireConfigFile: false,
 	},
 	extends: ["eslint:recommended"],
 	settings: {
@@ -22,7 +23,7 @@ module.exports = {
 	},
 	rules: {
 		"array-callback-return": 1,
-		"brace-style": [1, "1tbs"],
+		"brace-style": 0,
 		camelcase: 0,
 		"comma-dangle": 0,
 		"comma-style": 0,
