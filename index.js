@@ -109,7 +109,7 @@ module.exports = {
 		"no-unexpected-multiline": 0,
 		"no-unreachable": 1,
 		"no-unused-expressions": [
-			2,
+			1,
 			{
 				allowShortCircuit: true,
 				allowTernary: true,

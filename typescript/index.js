@@ -37,7 +37,7 @@ module.exports = {
 				],
 				"no-unused-expressions": 0,
 				"@typescript-eslint/no-unused-expressions": [
-					2,
+					1,
 					{
 						allowShortCircuit: true,
 						allowTernary: true,

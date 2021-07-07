@@ -1,3 +1,7 @@
+# Unreleased
+
+- Reduce `no-unused-expressions` from error to warning to align with `no-unused-vars`
+
 # 9.0.0 (2021-07-06)
 
 - Updated `README` to use `npm` instead of `yarn` for installation instructions (our projects will almost always use npm 7 moving forward)
