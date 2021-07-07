@@ -1,9 +1,10 @@
 // WIP @todo
 module.exports = {
-	extends: ["../index.js", "plugin:node/recommended-script"],
+	extends: ["../index.js", "plugin:node/recommended"],
 	parser: "espree",
 	plugins: ["node"],
 	rules: {
-		"node/no-process-exit": 1,
+		"no-process-exit": 0,
+		"node/no-process-exit": 0,
 	},
 };
