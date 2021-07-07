@@ -6,6 +6,9 @@ module.exports = {
 		ecmaFeatures: {
 			jsx: true,
 		},
+		babelOptions: {
+			presets: ["@babel/preset-react"],
+		},
 	},
 	settings: {
 		react: {
@@ -59,6 +62,7 @@ module.exports = {
 		"jsx-a11y/role-has-required-aria-props": 1,
 		"jsx-a11y/role-supports-aria-props": 1,
 		"jsx-a11y/scope": 1,
+		"react/display-name": 1,
 		// https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
 		"react/forbid-foreign-prop-types": [1, { allowInPropTypes: true }],
 		"react/jsx-no-comment-textnodes": 1,
