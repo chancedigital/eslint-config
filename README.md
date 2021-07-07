@@ -9,7 +9,7 @@ Shareable configuration for [ESLint](http://eslint.org/) following Chance Digita
 You should install this configuration along with its `peerDependencies` as `devDependencies` in your project:
 
 ```shell
-yarn add -D @chancedigital/eslint-config eslint@7 eslint-plugin-import@2 babel-eslint@10
+npm i -D @chancedigital/eslint-config eslint@7 eslint-plugin-import@2 @babel/eslint-parser@7
 ```
 
 ## Usage
@@ -40,14 +40,14 @@ You can extend any superset in `.eslintrc` by adding the standard into an `exten
 
 The following is a table of available supersets along with their required `devDependencies`:
 
-| Superset     | `devDependencies`                                                                                                                        |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| `jest`       | `eslint-plugin-jest@24` `eslint-plugin-testing-library@3`                                                                                |
-| `mocha`      | `eslint-plugin-mocha@8`                                                                                                                  |
-| `node`       | `eslint-plugin-node@11`                                                                                                                  |
-| `react`      | `eslint-plugin-react@7` `eslint-plugin-react-hooks@4` `eslint-plugin-jsx-a11y` `eslint-plugin-jest@24` `eslint-plugin-testing-library@3` |
-| `typescript` | `@typescript-eslint/parser@4` `@typescript-eslint/eslint-plugin@4` `typescript@4`                                                        |
-| `wp`         | `eslint-plugin-wpcalypso@5` `@wordpress/eslint-plugin@7`                                                                                 |
+| Superset     | `devDependencies`                                                                                                                                                 |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `jest`       | `eslint-plugin-jest@24` `eslint-plugin-testing-library@4`                                                                                                         |
+| `mocha`      | `eslint-plugin-mocha@8`                                                                                                                                           |
+| `node`       | `eslint-plugin-node@11`                                                                                                                                           |
+| `react`      | `eslint-plugin-react@7` `eslint-plugin-react-hooks@4` `eslint-plugin-jsx-a11y` `eslint-plugin-jest@24` `eslint-plugin-testing-library@4` `@babel/preset-react @7` |
+| `typescript` | `@typescript-eslint/parser@4` `@typescript-eslint/eslint-plugin@4` `typescript@4`                                                                                 |
+| `wp`         | `eslint-plugin-wpcalypso@5` `@wordpress/eslint-plugin@7`                                                                                                          |
 
 ## Test Standards
 
@@ -55,10 +55,10 @@ As of v5.0, we have removed the Jest rules from the standard config. This is bec
 
 ```shell
 # For Jest
-yarn add -D eslint-plugin-jest@23
+npm i -D eslint-plugin-jest@23
 
 # For Mocha
-yarn add -D eslint-plugin-mocha@7
+npm i -D eslint-plugin-mocha@7
 ```
 
 ```js
