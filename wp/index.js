@@ -1,4 +1,3 @@
-/* eslint-disable quotes, array-bracket-spacing, indent */
 module.exports = {
 	extends: "../index.js",
 	plugins: ["@wordpress", "wpcalypso"],
@@ -16,13 +15,14 @@ module.exports = {
 		"@wordpress/valid-sprintf": 2,
 		"@wordpress/no-base-control-with-label-without-id": 2,
 		"array-bracket-spacing": [1, "always"],
+		"brace-style": [1, "1tbs"],
 		"comma-dangle": [1, "always-multiline"],
-    "comma-spacing": 1,
-    "comma-style": [1, "last"],
+		"comma-spacing": 1,
+		"comma-style": [1, "last"],
 		"computed-property-spacing": [1, "always"],
 		curly: 1,
-    "eol-last": 1,
-    eqeqeq: [1, "smart", { null: "ignore" }],
+		"eol-last": 1,
+		eqeqeq: [1, "smart"],
 		"func-call-spacing": 1,
 		indent: [
 			1,
