@@ -59,7 +59,7 @@ module.exports = {
 		"no-extra-bind": 1,
 		"no-extra-label": 1,
 		"no-extra-boolean-cast": 1,
-		"no-extra-semi": 1,
+		"no-extra-semi": 0,
 		"no-fallthrough": 1,
 		"no-func-assign": 1,
 		"no-implied-eval": 1,
